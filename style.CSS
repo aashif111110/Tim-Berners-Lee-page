@@ -3,10 +3,11 @@ body {
     padding-top: 800px;
     margin: 0;
 }
+
 #welcome {
-    background: linear-gradient(#9999ff 0%,#0000cc 100%);
+    background: linear-gradient(#9999ff 0%, #0000cc 100%);
     display: table;
-    width:100%;
+    width: 100%;
     height: 100%;
     z-index: 9;
     position: absolute;
@@ -16,6 +17,7 @@ body {
     bottom: 0;
     opacity: 0.8;
 }
+
 .menu {
     top: 10px;
     right: 30px;
@@ -24,38 +26,56 @@ body {
     position: fixed;
     cursor: pointer;
 }
-#bio{
+
+#bio {
     padding: 70px;
 }
-.line{
+
+.line {
     background-color: black;
     height: 5px;
     width: 100px;
     margin: auto;
 }
-.dv1{
+
+.dv1 {
     display: table-cell;
     position: relative;
     vertical-align: middle;
 }
-.item{
+
+.item {
     float: left;
     color: blanchedalmond;
     padding: 5px;
     font-family: 'Karantina', cursive;
 }
-.item:hover{
-    background-color:aqua;
+
+.item:hover {
+    background-color: aqua;
 }
-h2{
+
+h2 {
     color: aliceblue;
     font-size: 40px;
     line-height: 1.5;
     font-family: 'Stint Ultra Condensed', cursive;
 }
-img{
+
+img {
     width: 450px;
     height: 350px;
     border-radius: 50%;
     margin-bottom: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: underline;
+}
+.article{
+    color: chartreuse;
 }
